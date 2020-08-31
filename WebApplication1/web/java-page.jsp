@@ -14,6 +14,7 @@
     <body>
         <h1>Hello, World!</h1>
         <h2>Java Server Page</h2>
+        <div>Luciano Antonio Rodrigues</div>
         <div><%= new java.util.Date() %></div>
     </body>
 </html>
