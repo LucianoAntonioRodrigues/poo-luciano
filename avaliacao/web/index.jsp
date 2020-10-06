@@ -10,9 +10,11 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <%@include file="WEB-INF/jspf/head-reference_1.jspf" %>
         <title>Avaliação P1</title>
     </head>
     <body>
+        <%@include file="WEB-INF/jspf/menu_1.jspf" %>
         <h1>Início</h1>
         <h2>Luciano Antonio Rodrigues</h2>
         <h3>RA: 1290481912042</h3>
@@ -20,5 +22,6 @@
             Disciplina matriz = new Disciplina("materia", "ementa", "ciclo");
         %>
         <h4>Quantidade de Matérias Matriculadas: <%= matriz.getList().size()%> </h4>
+        <%@include file="WEB-INF/jspf/body-reference_1.jspf" %>
     </body>
 </html>
