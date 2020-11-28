@@ -1,0 +1,6 @@
+<%-- any content can be specified here e.g.: --%>
+<%@ page pageEncoding="ISO-8859-1" %>
+        <a href="<%= request.getContextPath() %>/index.jsp">Início</a>
+        | <a href="<%= request.getContextPath() %>/sobre.jsp">Sobre</a>
+        | <a href="<%= request.getContextPath() %>/disciplinas.jsp">Minhas Disciplinas</a>
+
