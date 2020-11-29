@@ -5,20 +5,21 @@
 --%>
 
 <%@page import="br.edu.fatecpg.poo.Disciplina"%>
-<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<%@page import="br.edu.fatecpg.poo.web.DbListener"%>
+<%@page contentType="text/html" pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html>
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <%@include file="WEB-INF/jspf/head-reference_1.jspf" %>
-        <title>AvaliaÃ§Ã£o P1</title>
+        
+        <title>Avaliação P1</title>
     </head>
     <body>
-        <%@include file="WEB-INF/jspf/menu_1.jspf" %>
-        <h1>InÃ­cio</h1>
+        <%@include file="WEB-INF/jspf/head-reference_1.jspf" %>
+        <h1>Início</h1>
         <h2>Luciano Antonio Rodrigues</h2>
         <h3>RA: 1290481912042</h3>
-        <h4>RepositÃ³rio do Github <a href="https://github.com/LucianoAntonioRodrigues/poo-luciano">Link</a></h4>
+        <h4>Repositório do Github <a href="https://github.com/LucianoAntonioRodrigues/poo-luciano">Link</a></h4>
         <%@include file="WEB-INF/jspf/body-reference_1.jspf" %>
     </body>
 </html>
